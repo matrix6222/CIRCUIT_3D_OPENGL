@@ -1,0 +1,125 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Pliki źródłowe">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Pliki nagłówkowe">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Pliki zasobów">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Pliki nagłówkowe\Engine">
+      <UniqueIdentifier>{9d28d28e-8eaf-4291-966a-56e6556ca2cc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Pliki nagłówkowe\Models">
+      <UniqueIdentifier>{487c31a0-b7c2-4789-84fd-b6305e60940d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Pliki nagłówkowe\Shaders">
+      <UniqueIdentifier>{584ab3ee-87be-4d0b-a8ad-cdf90d45124c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Pliki nagłówkowe\Shaders\CubeWireframe">
+      <UniqueIdentifier>{aa623a0c-8eef-4352-89dc-1ff2a289bb9a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Pliki nagłówkowe\Shaders\Solid">
+      <UniqueIdentifier>{05b95b4f-715a-4f9d-8a58-1e9040c952d1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Pliki nagłówkowe\Circuit">
+      <UniqueIdentifier>{b28794b0-d91d-495c-88e4-7bfdaa5abcc1}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="glad.c">
+      <Filter>Pliki źródłowe</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>Pliki źródłowe</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="window.hpp">
+      <Filter>Pliki nagłówkowe\Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="stb_image.h">
+      <Filter>Pliki źródłowe</Filter>
+    </ClInclude>
+    <ClInclude Include="player.hpp">
+      <Filter>Pliki nagłówkowe\Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="shader.hpp">
+      <Filter>Pliki nagłówkowe\Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="cubeWireframe.hpp">
+      <Filter>Pliki nagłówkowe\Models</Filter>
+    </ClInclude>
+    <ClInclude Include="gateAND.hpp">
+      <Filter>Pliki nagłówkowe\Circuit</Filter>
+    </ClInclude>
+    <ClInclude Include="gateNOT.hpp">
+      <Filter>Pliki nagłówkowe\Circuit</Filter>
+    </ClInclude>
+    <ClInclude Include="gate.hpp">
+      <Filter>Pliki nagłówkowe\Circuit</Filter>
+    </ClInclude>
+    <ClInclude Include="input.hpp">
+      <Filter>Pliki nagłówkowe\Circuit</Filter>
+    </ClInclude>
+    <ClInclude Include="output.hpp">
+      <Filter>Pliki nagłówkowe\Circuit</Filter>
+    </ClInclude>
+    <ClInclude Include="model.hpp">
+      <Filter>Pliki nagłówkowe\Models</Filter>
+    </ClInclude>
+    <ClInclude Include="button.hpp">
+      <Filter>Pliki nagłówkowe\Circuit</Filter>
+    </ClInclude>
+    <ClInclude Include="cube.hpp">
+      <Filter>Pliki nagłówkowe\Models</Filter>
+    </ClInclude>
+    <ClInclude Include="lamp.hpp">
+      <Filter>Pliki nagłówkowe\Circuit</Filter>
+    </ClInclude>
+    <ClInclude Include="wire.hpp">
+      <Filter>Pliki nagłówkowe\Circuit</Filter>
+    </ClInclude>
+    <ClInclude Include="gateREGISTER8.hpp">
+      <Filter>Pliki nagłówkowe\Circuit</Filter>
+    </ClInclude>
+    <ClInclude Include="gate7SEGMENT4BIT.hpp">
+      <Filter>Pliki nagłówkowe\Circuit</Filter>
+    </ClInclude>
+    <ClInclude Include="gateADDER8BIT.hpp">
+      <Filter>Pliki nagłówkowe\Circuit</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="cubeWireframe.frag">
+      <Filter>Pliki nagłówkowe\Shaders\CubeWireframe</Filter>
+    </None>
+    <None Include="cubeWireframe.vert">
+      <Filter>Pliki nagłówkowe\Shaders\CubeWireframe</Filter>
+    </None>
+    <None Include="solidTex.frag">
+      <Filter>Pliki nagłówkowe\Shaders\Solid</Filter>
+    </None>
+    <None Include="solidTex.vert">
+      <Filter>Pliki nagłówkowe\Shaders\Solid</Filter>
+    </None>
+    <None Include="solidTexA.frag">
+      <Filter>Pliki nagłówkowe\Shaders\Solid</Filter>
+    </None>
+    <None Include="solidTexA.vert">
+      <Filter>Pliki nagłówkowe\Shaders\Solid</Filter>
+    </None>
+    <None Include="solid.frag">
+      <Filter>Pliki nagłówkowe\Shaders\Solid</Filter>
+    </None>
+    <None Include="solid.vert">
+      <Filter>Pliki nagłówkowe\Shaders\Solid</Filter>
+    </None>
+  </ItemGroup>
+</Project>
